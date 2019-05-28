@@ -2,3 +2,23 @@ body {
   text-align: center;
 }
 
+.scoreboard {
+  display: flex;
+  justify-content: space-around;
+  margin : 20px;
+}
+
+.scoreboard div {
+  border : 1px solid blue;
+  background-color: lightblue;
+  padding : 20px;
+}
+
+header {
+  border: 1px solid blue;
+  background-color: black;
+  color : white;
+  padding: 40px;
+  font-size: 40px;
+}
+

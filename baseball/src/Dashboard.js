@@ -5,14 +5,13 @@ function Dashboard(props) {
 
     return (
         <>
-            <div>Let's play some baseball!</div>
             <button onClick={props.hit}>Hit</button>
             <button onClick={props.strike}>Strike</button>
             <button onClick={props.foul}>Foul</button>
-            <button onClick={props.ball}>Ball</button>
+            <button onClick={props.ball}>Ball</button><br />
+            <button onClick={props.reset}>Reset</button>
         </>
     )
-
 }
 
 export default Dashboard;
